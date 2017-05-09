@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/imageb"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/lrg"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:transitionName="aaa"
+        tools:ignore="ContentDescription,UnusedAttribute"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_below="@+id/imageb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="Ss dhsjk jksdhjks hjksjk hsjkh jkshd jkshd jkshjkd hjks hdjksh djkws hdjksh djkshjkdhsjkd hjkshd kshd jkshdjk shjkd hsjkhd jks hdjks hdjkshjk dhsjkd hsjkh djks d"
+
+        />
+</RelativeLayout>
