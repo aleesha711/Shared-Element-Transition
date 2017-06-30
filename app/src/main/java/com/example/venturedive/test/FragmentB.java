@@ -31,7 +31,7 @@ public class FragmentB extends Fragment {
         fadeOut = new AlphaAnimation(1.0f , 0.0f);
         fadeOut.setDuration(1200);
         fadeOut.setFillAfter(true);
-        tv.setText("This is an animated textview");
+        tv.setText("This is an animated textview appearing here");
         tv.startAnimation(fadeIn);
         return rootView;
     }
